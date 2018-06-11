@@ -1,0 +1,70 @@
+/*http://psoftsolution.in/pepipostnew/email-pricing/*/
+@media screen and (min-width: 992px){
+	.text_black{background-color: #000;padding: 60px 0;color: #fff}
+	.text_black p{margin-bottom: 30px;font-size: 16px}
+	.text_black h1{margin-top:0;margin-bottom:30px;font-size: 30px;font-weight: 700}
+	.text_black p a{color:#c90047}
+	.text_black p a:hover{text-decoration: none}
+
+	.cust_feedback{padding:60px 0}
+	.gray_part{padding-top: 60px;background-color:#f7f7f7}
+	.gray_part h2,.plans_pricing h2{font-size:30px;font-weight:700;color:#222}
+	.cust_feedback .cust_info{margin-bottom:20px;padding-left:9% }
+	.cust_feedback .cust_info img{width:65px;border-radius:50%;display:inline-block;}
+	.cust_feedback .cust_info .cust_name{padding: 5px 10px;display: inline-block;vertical-align: middle;}
+	.cust_name h4{color:#222;font-weight:600;font-size: 16px;margin-bottom: 
+		0}
+	.cust_name p{margin-bottom:10px;font-size:16px;text-align:left;
+		font-weight:400;color: #000 !important}
+	.cust_text{padding: 5px 9%;margin-top: 15px;height:75px;color: #222}
+	.cust_text p{font-size: 16px;margin-bottom: 10px;text-align: left;
+	}
+	.carousel .item{padding-right:20px;padding-right:20px}
+	.slideshow{padding:15px;position:relative;overflow: hidden;}
+	.slider{margin:45px auto;background-color:#fff}
+	.inner_slider{padding:30px 10px;border:2px solid #eee;height:262px}
+	/*.carousel-inner{background-color:#fff}*/
+	.inner_slider .carousel{/*border:1px solid;*/padding:20px 10%}
+	.carousel-indicators li{background-color:#ccc !important;}
+	.carousel-indicators .active{background-color:#c90047 !important}
+
+	.banner{position:relative;height:50vh;margin-bottom: 30px;
+		background-color:#c90047;background-image: url("../images/banner.jpg");
+		margin-top: 64px}
+	.banner h1{font-size:36px;margin-top:20px;margin-bottom:15px;font-weight:700;color: #fff}
+	.bann_txt{padding-top: 60px}
+	.banner p{font-size:16px;font-weight: 400;color:#fff !important;margin-bottom: 30px}
+	.banner .btn1,.banner .btn1:hover{background:#c90047;border:2px solid #fff;font-size:16px;
+		font-weight: 700;color:#fff;padding:10px 20px;text-align:center;
+		text-transform:uppercase;}
+	.head{position: fixed;top: 0;left: 0;z-index: 100;background: #fff;
+		width:100%;border:1px solid #e3e3e3;padding-top:5px;padding-bottom:5px}
+	.head img{margin-top: 5px;display: inline-block;}
+	.head_ul{list-style: none;}
+	.head_ul li{/*float:left;*/margin-right: 50px;margin-top:15px;margin-bottom: 10px;font-weight: bold;cursor:pointer;
+	padding-bottom: 5px;padding-top: 10px}
+	.head_ul li:hover , .signIn:hover{border-bottom: 2px solid #c53c54;}
+	.head_ul_02{list-style: none;cursor: pointer;}
+	.head li{float: right;margin-top:5px;margin-bottom: 10px;font-weight: 600;
+	}
+	.signIn{padding-top: 10px;}
+	.head_ul_02 button{margin-right: 30px;background: #62b9ff !important;padding: 6px 8px;color: #fff;
+	border-radius: 10px;border: 2px solid #62b9ff;}
+	.head_ul_02 button:hover{background: #fff !important;border-color:#62b9ff;color:#62b9ff }
+	.carousel-control.left , .carousel-control.right{background:none !important}
+	.footer{border-top:1px solid #999;padding-top: 50px}
+	.footer .col-md-2 ul{list-style: none}
+	.footer .col-md-2 ul li a{color:#222;text-decoration:none;font-weight:600;font-size: 13px;text-transform: capitalize; }
+	.footer .col-md-2  ul li{padding-bottom: 10px}
+	.footer .col-md-2 ul li a:hover{color: #c90047}
+	.footer .col-md-3 h3{color:#222;font-weight:600;font-size: 14px;margin-bottom: 10px;margin-top:0}
+	.most_read_ul{list-style:none;padding-left:0}
+	.most_read_ul li a{text-decoration:none;font-size:14px;font-weight:400;color:#222;}
+	.most_read_ul li{padding-left: 13px;margin-bottom:10px;text-align:left;}
+	.most_read_ul li span{color:#222;font-weight:400;font-size:9px;font-style:italic;}
+	.footer .col-md-3 p{margin-top:0;text-align:left}
+	.footer .col-md-3 .input_email{height:50px;border-radius:5px;border:1px solid #222;border-top-right-radius:0;border-bottom-right-radius:0;padding-left: 10px;color: #fff !important}
+	.footer .col-md-3 button{height:50px;margin-left:-4px;border-radius:5px;border-top-left-radius:0;border-bottom-left-radius:0;
+		width:70px;;border:1px solid #222;}
+	
+}
