@@ -8,10 +8,22 @@ $(document).ready(function(){
 	$(".upper_div").mouseleave(function(){
 		$(".blackbox").fadeOut(1000);
 	})
+	$(".more_details").hide();
+	$(".single-property").mouseenter(function(){
+		$(this).children(".more_details").fadeIn(1000);
+	})
+
+	$(".single-property").mouseleave(function(){
+		$(".more_details").fadeOut(1000);
+	})
 
 	$(".media-service-info").hover(function(){
 	 	$(this).toggleClass('cn');
 	 });
+
+	$(".agent_slider").mouseenter(function(){
+		$(this).children(".yellow_box").hover();
+	})
 
 	$('.owl-carousel').owlCarousel({
     loop:true,
@@ -34,15 +46,27 @@ $(document).ready(function(){
     }
 		})
 
+	$(".main-login").hide();
+			$(".login-button").click(function(){
+		    $(".main-login").show();
+		    $(".main-box").hide();
+		});
 
-	// owlCarouselslider
+		$(".fa-arrow-left").click(function(){
+		    $(".main-login").hide();
+		    $(".main-box").show();
+		});
 
-	$(".yellow_box").hide();
-	$(".agent-slider").mouseenter(function(){
-		$(this).children(".yellow_box").fadeIn(1000);
-	})
-
-	$(".agent-slider").mouseleave(function(){
-		$(".yellow_box").fadeOut(1000);
-	})
+		 $( ".slider-range" ).slider({
+		        range: true,
+		        min: 80,
+		        max: 2500,
+		        values: [ 300, 2000 ],
+		        slide: function( event, ui ) {
+				$( ".amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+		        }
+    		});
+	    $( ".amount" ).val( "$" + $( ".slider-range" ).slider( "values", 0 ) +
+		   " - $" + $( ".slider-range" ).slider( "values", 1 ) ); 
+		
 })
